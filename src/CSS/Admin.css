@@ -1,0 +1,51 @@
+.admin {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f8f8f8; 
+}
+
+.admindata {
+    display: grid;
+    margin: 20px;
+    text-align: center;
+    width: 250px;
+    border-radius: 20px;
+    background-color: #fff8dc; 
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2); 
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.admindata:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.admindata h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.admindata p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.admindata p[style*="red"] {
+    font-weight: bold;
+    color: #d9534f;
+}
+
+@media (max-width: 768px) {
+    .admindata {
+        width: 90%; 
+        margin: 10px auto;
+    }
+}

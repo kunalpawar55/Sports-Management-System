@@ -1,0 +1,46 @@
+.swiper-container {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+
+.swiper-container h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.slide-content {
+  text-align: center;
+}
+
+.youtube {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .youtube {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .youtube {
+    max-width: 250px;
+  }
+}
